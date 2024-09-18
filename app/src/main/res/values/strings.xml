@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">final assessment</string>
+    <string name="error_loading_entity">Error: Unable to load entity details</string>
+</resources>

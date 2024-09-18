@@ -1,0 +1,67 @@
+[versions]
+agp = "8.6.0"
+androidxActivityActivityKtx22 = "1.9.2"
+androidxConstraintlayoutConstraintlayout18 = "2.1.4"
+comSquareupRetrofit2ConverterGson25 = "2.9.0"
+comSquareupRetrofit2Retrofit24 = "2.11.0"
+gradle = "7.0.4"
+hiltAndroid = "2.51.1"
+hiltAndroidCompiler = "2.51.1"
+hiltAndroidComplier = "2.51.1"
+hiltAndroidGradlePlugin = "2.51.1"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+kotlinGradlePlugin = "1.9.22"
+lifecycleRuntimeKtx = "2.8.5"
+activityCompose = "1.9.1"
+composeBom = "2024.04.01"
+navigationSafeArgsGradlePlugin = "2.8.0"
+orgJetbrainsKotlinKotlinStdlib11 = "2.0.20"
+orgJetbrainsKotlinxKotlinxCoroutinesAndroid19 = "1.7.3"
+hilt = "2.51.1"
+xjunitJunit23 = "4.13.2"
+    androidTestImplementation ="androidx.test.ext"
+appcompat = "1.7.0"
+recyclerview = "1.3.2"
+
+[libraries]
+androidx-activity-activity-ktx24 = { module = "androidx.activity:activity-ktx", version.ref = "androidxActivityActivityKtx22" }
+androidx-constraintlayout-constraintlayout20 = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidxConstraintlayoutConstraintlayout18" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-lifecycle-lifecycle-viewmodel-ktx22 = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-navigation-safe-args-gradle-plugin = { module = "androidx.navigation:navigation-safe-args-gradle-plugin", version.ref = "navigationSafeArgsGradlePlugin" }
+com-squareup-retrofit2-converter-gson26 = { module = "com.squareup.retrofit2:converter-gson", version.ref = "comSquareupRetrofit2ConverterGson25" }
+com-squareup-retrofit2-retrofit25 = { module = "com.squareup.retrofit2:retrofit", version.ref = "comSquareupRetrofit2Retrofit24" }
+dagger-hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
+dagger-hilt-android-complier = { module = "com.google.dagger:hilt-android-complier", version.ref = "hiltAndroidComplier" }
+dagger-hilt-android-gradle-plugin = { module = "com.google.dagger:hilt-android-gradle-plugin", version.ref = "hiltAndroidGradlePlugin" }
+gradle = { module = "com.android.tools.build:gradle", version.ref = "gradle" }
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+kotlin-gradle-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlinGradlePlugin" }
+org-jetbrains-kotlin-kotlin-stdlib14 = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "orgJetbrainsKotlinKotlinStdlib11" }
+org-jetbrains-kotlinx-kotlinx-coroutines-android21 = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "orgJetbrainsKotlinxKotlinxCoroutinesAndroid19" }
+hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "hilt" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version = "1.9.0"}
+compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
